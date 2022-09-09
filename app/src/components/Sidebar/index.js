@@ -1,10 +1,10 @@
 import React from "react";
 import logo from "../../assets/vast.png";
-import dashboard from "../../assets/dashboard.png";
-import transaction from "../../assets/transaction.png";
-import customers from "../../assets/customer.png";
-import cards from "../../assets/card.png";
-import analytics from "../../assets/Chart.png";
+import dashboard from "../../assets/Layer 2 (1).svg";
+import transaction from "../../assets/Layer 2.svg";
+import customers from "../../assets/Group (1).svg";
+import cards from "../../assets/card.svg";
+import analytics from "../../assets/Chart.svg";
 import { NavLink } from "react-router-dom";
 import "./index.css";
 const index = ({ children }) => {
