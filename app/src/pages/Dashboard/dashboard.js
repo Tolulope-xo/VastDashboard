@@ -1,11 +1,13 @@
-import React from 'react'
-import EachOverview from '../../components/EachOverview/eachoverview'
+import React from "react";
+import Background from "../../components/Background/background";
+import EachOverview from "../../components/EachOverview/eachoverview";
 const Dashboard = () => {
   return (
     <div>
-      <EachOverview props='Dashboard' text='Transaction Overview'/>
+      <Background />
+      <EachOverview props="Dashboard" text="Transaction Overview" />
     </div>
-  )
-}
+  );
+};
 
-export default Dashboard
+export default Dashboard;
