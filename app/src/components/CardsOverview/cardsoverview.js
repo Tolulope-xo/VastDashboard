@@ -1,7 +1,7 @@
 import React from "react";
 import icon3 from "../../assets/card1.png";
 import "../CustomerOverview/customeroverview";
-const cardsoverview = ({ children }) => {
+const cardsoverview = () => {
   const figures = [
     {
       id: 1,
@@ -54,7 +54,6 @@ const cardsoverview = ({ children }) => {
           );
         })}
       </div>
-      <main>{children}</main>
     </div>
   );
 };

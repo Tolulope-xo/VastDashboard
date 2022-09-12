@@ -3,7 +3,7 @@ import icon1 from "../../assets/moneys.png";
 import icon2 from "../../assets/status-up.png";
 import arrow from "../../assets/arrow.svg";
 import "./transactionoverview.css";
-const transactionoverview = ({ children }) => {
+const transactionoverview = () => {
   const figures = [
     {
       id: 1,
@@ -86,7 +86,7 @@ const transactionoverview = ({ children }) => {
           );
         })}
       </div>
-      <main>{children}</main>
+      {/* <main>{}</main> */}
     </div>
   );
 };

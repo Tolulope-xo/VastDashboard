@@ -24,6 +24,7 @@ span {
 .filter {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .filterAccount {
   color: #575757;
@@ -36,14 +37,12 @@ span {
   margin-left: 1rem;
 }
 .filterType {
-  position: absolute;
-  right: 3rem;
   align-items: center;
   text-align: center;
   height: 2rem;
+  margin-right: 1rem;
   display: flex;
   gap: 1rem;
-  margin: auto;
   width: 13rem;
   border: 1px solid #f4f4f6;
   border-radius: 5px;

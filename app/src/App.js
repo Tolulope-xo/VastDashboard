@@ -7,7 +7,7 @@ import Transaction from "../src/pages/Transaction/transaction";
 import Customers from "../src/pages/Customers/customer";
 import Cards from "../src/pages/Cards/cards";
 import Analytics from "../src/pages/Analytics/analytics";
-
+// import { TooltipComponent } from '@syncfusion/ej2-react-popups'
 function App() {
   return (
     <div className="App">
